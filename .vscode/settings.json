@@ -1,0 +1,7 @@
+{
+  "files.exclude": {
+    "**/.npm-cache": true,
+    "**/node_modules": true,
+    "**/dist": true
+  }
+}

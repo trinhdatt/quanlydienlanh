@@ -1,0 +1,26 @@
+{
+  "folders": [
+    {
+      "name": "Dự án điện lạnh",
+      "path": "."
+    },
+    {
+      "name": "API và cơ sở dữ liệu",
+      "path": "api"
+    },
+    {
+      "name": "Giao diện web",
+      "path": "web"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.npm-cache": true,
+      "**/node_modules": true,
+      "**/dist": true,
+      ".vscode": true,
+      "api": true,
+      "web": true
+    }
+  }
+}

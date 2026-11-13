@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "workspaces": [
+    "web",
+    "api"
+  ],
+  "scripts": {
+    "web": "npm run dev -w web",
+    "api": "npm run dev -w api",
+    "build": "npm run build --workspaces",
+    "preview": "vite preview web --host 127.0.0.1"
+  }
+}
